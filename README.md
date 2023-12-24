@@ -50,9 +50,10 @@ After building the project, you can run the Bond Trading System executable:
 ```bash
 ./MTH9815_Bond_Trading_System
 ```
+#### As per current parameters the complete run can take up to 30 minutes, please reduce the number of prices for faster completion, details below in additional instructions
 #### The output files can be found inside the build directory
 
 ## Additional Instructions
 
-1. Downloading of boost and its configuration is taken care of via the `CMakeLists.txt` file
+1. Downloading of boost and its configuration is taken care of via the `CMakeLists.txt` file, if boost is not detected, downloading and installing can take up to 5 minutes.
 2. For testing purposes, 100000 (instead of 1000000) prices were generated, this can be easily changed to 10000000 in the `input_data.py` file under the variable name `num_rows` inside the `generate_prices` and `generate_market_data` functions 
