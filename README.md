@@ -13,6 +13,12 @@ First, run the `input_data.py` script to generate the necessary input data. Ensu
 
 ```bash
 python3 input_data.py
+'''bash
+
 
 ### Step 2: Install CMake
 Install CMake using the following commands. This will update your package list and install CMake on your Ubuntu system.
+
+'''bash
+sudo apt update
+sudo apt install cmake
