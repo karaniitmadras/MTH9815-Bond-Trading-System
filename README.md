@@ -10,7 +10,9 @@ Follow these steps to deploy the Bond Trading System on your local machine.
 ### Step 1: Generate Input Data
 
 First, run the `input_data.py` script to generate the necessary input data. Ensure you have Python 3 installed on your system.
-Please ensure that the four input files are in the same location as the cpp and hpp files
+
+#### Please ensure that the four input files are in the same location as the cpp and hpp files
+
 ```bash
 python3 input_data.py
 ```
@@ -21,6 +23,8 @@ Install CMake using the following commands. This will update your package list a
 
 ```bash
 sudo apt update
+```
+```bash
 sudo apt install cmake
 ```
 
@@ -29,8 +33,14 @@ Create a build directory for the compilation process, configure the project with
 
 ```bash
 mkdir build
+```
+```bash
 cd build
+```
+```bash
 cmake ..
+```
+```bash
 make
 ```
 
