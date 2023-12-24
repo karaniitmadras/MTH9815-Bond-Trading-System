@@ -18,7 +18,24 @@ python3 input_data.py
 ### Step 2: Install CMake
 Install CMake using the following commands. This will update your package list and install CMake on your Ubuntu system.
 
-'''bash
+```bash
 sudo apt update
 sudo apt install cmake
+```
+
+### Step 3: Create and Build the Project
+Create a build directory for the compilation process, configure the project with CMake, and compile:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+### Step 4: Run the Application
+After building the project, you can run the Bond Trading System executable:
+
+```bash
+./MTH9815_Bond_TradingSystem
 ```
