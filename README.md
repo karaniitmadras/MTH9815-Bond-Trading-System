@@ -37,7 +37,7 @@ make
 After building the project, you can run the Bond Trading System executable:
 
 ```bash
-./MTH9815_Bond_TradingSystem
+./MTH9815_Bond_Trading_System
 ```
 
 ## Additional Instructions
